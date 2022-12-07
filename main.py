@@ -9,7 +9,7 @@ window.config(padx=10, pady=20)
 
 
 def convert_m_to_km():
-    int_miles = int(miles_entry.get())
+    int_miles = float(miles_entry.get())
     km = round(int_miles * 1.6, 1)
     if km == 0:
         km = int(km)
