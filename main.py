@@ -4,7 +4,6 @@ FONT = ("Arial", 24, "normal")
 
 window = Tk()
 window.title("Mile to Km Converter")
-window.minsize(width=500, height=300)
 window.config(padx=10, pady=20)
 
 
